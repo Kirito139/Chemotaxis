@@ -1,8 +1,16 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css"
+@font-face {
+    font-family: '3270';
+    src: url('https://kirito139.github.io/Stash/fonts/3270NerdFont-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    background-color: rgb(200,200,200);
-    color: rgb(0,0,0);
-    font-family: "Open Sans", sans-serif;
-    text-align: left;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 #content {
@@ -12,10 +20,11 @@ body {
 }
 
 header {
-	
+    font-family: '3270', "Courier New", monospace;
 }
 
 footer {
-	font-style: italic;
-	font-size: 90%;
+    font-family: Arial, sans-serif !important;
+    font-style: italic;
+    font-size: 90%;
 }
